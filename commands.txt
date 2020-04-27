@@ -1,0 +1,11 @@
+##create database
+python manage.py migrate
+## start webserver
+python manage.py runserver
+## create application
+python manage.py startapp blog
+## add new module to the database
+python manage.py makemigrations blog
+python manage.py migrate blog
+## create super user to log in as admin
+python manage.py createsuperuser
