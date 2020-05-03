@@ -9,3 +9,13 @@ python manage.py makemigrations blog
 python manage.py migrate blog
 ## create super user to log in as admin
 python manage.py createsuperuser
+## upload code to gitlab
+Use pycharm VCS share project
+## PythonAnywhere comands
+pip3.6 install --user pythonanywhere
+# add nuke if you want to replace existing webapp
+pa_autoconfigure_django.py --python=3.6 https://github.com/LeRouxVisser/my-first-blog.git --nuke
+# create super user to log in as admin
+python manage.py createsuperuser
+## api token python anywhere:
+565c2dc0b3b6571e5282023dc8496603d4247b63
